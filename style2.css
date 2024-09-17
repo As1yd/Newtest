@@ -1,0 +1,279 @@
+s/*.  For destop*/
+.col1{
+  width :8.33%;
+}
+.col2{
+  width :16.66%;
+}
+.col3{
+  width :24.99%;
+}
+.col4{
+  width :33.52%;
+}
+.col5{
+  width :41.65%;
+}
+.col6{
+  width :49.98%;
+}
+.col7{
+  width :58.31%;
+}
+.col8{
+  width :66.64%;
+}
+.col9{
+  width :74.97%;
+}
+.col10{
+  width :83.33%;
+}
+.col11{
+  width :91.63%;
+}
+.col12{
+  width :99.96%;
+}
+
+
+
+
+
+
+
+
+  *{
+    padding:0px;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body{
+    box-sizing: border-box;
+  }
+
+.header{
+ display: flex;
+ float: left;
+width:100%;
+ position :relative;
+}
+
+.head{
+padding-top:30px;
+  
+}
+.nav-menu {
+  
+margin-top: 20px;
+margin-left:70% ;
+flex-direction: row;
+justify-content: flex-end;
+  position : absolute;
+  
+}
+.nav-menu a {
+padding:10px;
+  
+ 
+}
+
+
+/* main body style start*/
+
+
+.icon1{
+  
+  margin-left: 300px;
+ 
+}
+
+.description h1,p{
+  margin-left: 300px;
+  
+}
+.icon2{
+  position : absolute;
+  margin-top: 300px;
+  margin-left: -390px;
+ 
+}
+.profile-clear{
+  
+  content:'';
+  display : table;
+  clear: both;
+}
+
+/* profile end*/
+
+  
+  /* About start here*/
+
+.about-me{
+  display: flex;
+  float: left;
+  
+}
+.img2{
+  height:300px;
+  width :250px;
+  margin-top:40px;
+
+}
+
+.about-des .hr1{
+  margin-left:182px;
+}
+.about-des hr{
+  margin-left: 100px;
+}
+
+.about-des p {
+ background-color: rd;
+ margin-top: 10px;
+ margin-right: 70px;
+  margin-left: 30px;
+  
+}
+
+.about-des h1{
+  
+  margin-top: 20px;
+}
+
+
+.hr1{
+  
+  border:5px dotted #2562C6;
+  border-bottom: none;
+  width:125px;
+  margin-left:110px;
+}
+
+hr{
+  margin-left: 30px;
+  width:290px;
+}
+
+
+
+
+/* About end here*/
+  
+  
+/*  skill section start here*/
+
+ 
+  
+.full-skill{
+  display: flex;
+  float: left;
+  margin-top: 10px;
+}
+
+
+
+.section2{
+  margin-top: 20px;
+}
+
+.qualification-item p {
+  
+  margin-left: 20px;
+}
+
+.skill-section hr{
+  border-color: yellow;
+  border-width:2px;
+  width :240px;
+  margin-left: 100px;
+  margin-top:10px;
+}
+
+
+/*  skill section end here*/
+/* skill 2 section start here*/
+
+.last-div {
+  display : flex;
+  float: left;
+  
+}
+
+.social-contact{
+  height:350px;
+  margin-top:20px;
+}
+.contact-me hr{
+  margin-left:70px;
+}
+.social-contact hr{
+  margin-left:100px;
+}
+
+
+.social-contact button {
+  margin:30px;
+  padding: 1px; 
+  font-size: 60px;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+
+.animation ul li::before{
+ position : absolute;
+ content:'';
+ display: block;
+ height : 10px;
+ width :200px;
+  background-color: white;
+  margin:  20px 5px 0px 150px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+
+.animation ul li::after{
+ position : absolute;
+ content:'';
+ display: block;
+ height : 10px;
+ width :0px;
+  background-color: #C51C91;
+  margin: 1px 5px 0px 150px;
+  border-radius: 10px;
+   animation:  5s infinite;
+  
+}
+
+
+.clear {
+  content :"";
+  display:"table"; 
+  clear:both;
+}
+/* skill 2 section end here*/
+
+/* footer  section start here */
+
+  .footer{
+    display: flex;
+    float: left ;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+
+.footer-menu a{
+  color:white;
+  padding:10px; 
+  display :inline;
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color:gray;
+  text-decoration: underline;
+}

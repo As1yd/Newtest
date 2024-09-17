@@ -1,0 +1,409 @@
+
+ *{
+    padding :0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+  }
+ body {
+   box-sizing: border-box;
+    
+  }
+    
+  [class*=col]{
+    float:left;
+   
+  }
+  
+  [class*=col]{
+    width:100%;
+  }
+  
+  
+ .header{
+   background-color: #42445A;
+   text-align: center;
+   width :100%;
+   padding :0;
+   margin:0;
+ }
+    img{
+   height :80px;
+   width:80px; 
+   border: 2px solid black;
+   border-radius: 50%;
+   margin-top: 10px;
+   
+    }
+    .head{
+      color:white;
+    }
+   .nav-menu{
+     padding: 10px;
+     display :flex;
+     flex-direction: column;
+      
+    }
+    .nav-menu a{
+      color:white;
+      padding: 10px;
+      text-decoration: none;
+      
+    }
+ 
+.nav-menu a:hover{
+  text-decoration: underline;
+  background-color: #3AB7C7;
+  border-radius: 20px;
+}
+
+.clear1{
+  content: "";
+  display: table;
+  clear: both; 
+}
+
+/* Header section end*/
+
+
+/* main body style start*/
+.profile{
+  height:400px; 
+  position: relative;
+ text-align: center;
+ background-color: white;
+  
+  
+}
+.icon1{
+  border:none;
+  position: absolute;
+  margin-top:10px;
+  margin-left: 90px;
+ transition: transform 2s;
+}
+
+.icon1:hover{
+  transform: rotate(360deg);
+}
+
+.description {
+  position: absolute; 
+  
+ margin-left: 80px;
+  
+}
+.description  h1 {
+ 
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+
+  
+  margin-top: 80px;
+
+}
+.description > p {
+  
+}
+
+.icon2{
+  border: none;
+  position : absolute;
+  margin-top:200px;
+  margin-left: -170px;
+  transition: transform 2s;
+}
+
+.icon2:hover{
+  transform: rotate(360deg);
+}
+
+.clear2{
+  content:"";
+  display : table;
+  clear: both;
+}
+
+/* profile end*/
+/* About start here*/
+
+.about-me{
+  background-color: #4BC5C4;
+  height: 450px;
+  
+  text-align: center;
+  color:white;
+  
+}
+.img2{
+  height:150px;
+  width :150px;
+
+}
+
+
+.about-des p {
+ background-color: rd;
+ margin-top: 10px;
+  
+  
+}
+.hr1{
+  
+  border:5px dotted #2562C6;
+  border-bottom: none;
+  width:125px;
+  margin-left:120px;
+}
+
+hr{
+  margin-left: 30px;
+  width:290px;
+}
+
+
+.clear3{
+  content:"";
+  display :table;
+  clear:both;
+}
+/* About end here*/
+
+/*  skill section start here*/
+
+.skill-section{
+  background-color: #0D2349;
+  color: white;
+  text-align: center;
+  height:450px;
+  width:90%;
+  margin:20px;
+  box-shadow: 8px 8px 10px  black;
+  border-radius: 20px;
+ 
+}
+.skill-section:hover{
+  
+  box-shadow: 8px 8px 10px  #C713CC;
+  
+  
+}
+
+.skill-section hr{
+  border-color: yellow;
+  border-width:2px;
+  width :240px;
+  margin-left: 40px;
+  margin-top:10px;
+}
+
+
+
+/*  skill section end here*/
+
+
+/* skill part 2 animation start here */
+
+.section2{
+  height : 450px;
+  width:90%;
+  background-color: pink;
+  text-align: center ;
+  margin: 1px 
+  20px 10px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 2px black;
+}
+
+.section2:hover {
+  box-shadow: 5px 5px 10px 2px #C713CC;
+}
+
+
+.section2-icon{
+  margin-top: 30px;
+}
+
+.skill2-icon{
+  border-style: none;
+}
+
+.animation ul li{
+  
+  margin-top: 30px;
+  list-style-type: none ;
+  
+}
+
+.animation ul li::before{
+ position : absolute;
+ content:'';
+ display: block;
+ height : 10px;
+ width :200px;
+  background-color: white;
+  margin:  20px 5px 0px 60px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+
+.animation ul li::after{
+ position : absolute;
+ content:'';
+ display: block;
+ height : 10px;
+ width :0px;
+  background-color: #C51C91;
+  margin: 1px 5px 0px 60px;
+  border-radius: 10px;
+   animation:  5s infinite;
+  
+}
+
+
+.animation ul li.html::after{
+  animation-name: hasan;
+}
+.animation ul li.css::after{
+  animation-name: hasan1;
+}
+
+.animation ul li.js::after{
+  animation-name: hasan2;
+}
+
+
+@keyframes hasan {
+  from{
+    width:0;
+  }
+  to{
+    width:160px;
+  }
+}
+
+@keyframes hasan1 {
+  from{
+    width:0;
+  }
+  to{
+    width:150px;
+  }
+}
+
+@keyframes hasan2 {
+  from{
+    width:0;
+  }
+  to{
+    width:130px;
+  }
+}
+
+
+.skill-clear {
+  content:'';
+  display:"table";
+  clear: both;
+}
+
+
+/* skill part 2 animation end here */
+/*  last section start here*/
+
+
+
+
+.contact-me{
+  text-align: center;
+  height: 350px;
+  width: 100%;
+  background-color: #7587B0;
+  padding:20px;
+  margin-top: 20px;
+}
+
+.contact-me p{
+  margin:10px;
+  
+}
+.contact-me input,#input{
+  text-align: center;
+  border:none;
+  border-radius: 10px;
+  }
+  .re-btn,.sub-btn {
+    background-color: white;
+    color:black;
+   
+    font-size: 29px;
+    margin:5px;
+    padding :5px;
+    border-radius: 10px;
+  }
+  
+  .contact-me button:hover{
+    background-color: yellow;
+  }
+  
+  
+  
+  
+.social-contact{
+  text-align: center;
+  height :150px;
+  width:100%;
+  background-color: #6F17C8;
+  padding-top: 20px ;
+}
+
+.social-contact h2 {
+   color: white;
+}
+.social-contact hr{
+  margin-top:5px;
+  border-color: white;
+  border-width: 2px;
+}
+
+.social-contact button {
+  margin:10px;
+  padding: 1px; 
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+.last-sec{
+  content :'';
+  display:"table"; 
+  clear:both;
+}
+
+/*  last section end here*/
+/*footer section start here*/
+.footer {
+  background-color: black;
+  height :200px;
+  color:white;
+  
+  text-align:center;
+ 
+ 
+}
+
+
+.footer-menu a{
+  color:white;
+  padding:10px; 
+  display :block;
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color:gray;
+  text-decoration: underline;
+   }
